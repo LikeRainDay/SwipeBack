@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="BaseTheme">
+
+        <!--透明状态栏-跟侧滑返回无关-->
+        <item name="android:windowTranslucentStatus">true</item>
+
+        <!--侧滑滑动-在API21以下必要的-->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+
+    </style>
+
+</resources>
